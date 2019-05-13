@@ -18,12 +18,14 @@ conda activate icassp_exporter
 * In the app, go to the settings and "Send Backup to Support"
 * Send it to you (it's an SQLite database)
 * run `python export.py -i example.icassp-ios-backup`
+* import `ICASSP19.ics` to your program of choice
 
 It will export an ICS file which you can then open with your favourite tool.
 
 ## Adapt Timezone
 
-This is a quick hack. I had to adjust my timezone handling.
+This is a quick hack. I had to adjust my timezone handling, please use
+the `-o` parameter for this.
 
 ```
 python export.py -i example.icassp-ios-backup -o -1
