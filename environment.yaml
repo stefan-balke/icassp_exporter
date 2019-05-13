@@ -1,0 +1,6 @@
+name: icassp_exporter
+
+dependencies:
+- python=3.6
+- pip:
+  - ics
